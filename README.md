@@ -60,10 +60,10 @@ YOLO/                          # Root project directory
 ## 🚀 Quick Start
 
 ### **Prerequisites**
-- Python 3.8+ installed
+- Python 3.10 installed
 - Flutter SDK installed (for frontend)
 - Webcam or camera device
-- At least 4GB RAM (8GB+ recommended for optimal performance)
+- At least 8GB RAM 
 - GPU support (optional but recommended for better performance)
 
 ### **1. Clone the Repository**
@@ -161,16 +161,6 @@ flutter pub get
 flutter run -d chrome  # Hot reload enabled
 ```
 
-### **Testing**
-```bash
-# Test backend framework
-cd backend
-python test_framework.py
-
-# Run benchmarks
-python benchmarks/benchmark_runner.py --mode comprehensive
-```
-
 ## 📊 Performance Benchmarks
 
 ### **Typical Results (Good Model)**
@@ -180,17 +170,13 @@ python benchmarks/benchmark_runner.py --mode comprehensive
 - **Latency**: 30-80ms per inference
 
 ### **Hardware Requirements**
-- **Minimum**: CPU-only, 4GB RAM, webcam
-- **Recommended**: GPU, 8GB+ RAM, high-quality camera
-- **Optimal**: RTX 3060+ GPU, 16GB+ RAM, 1080p camera
+- **Minimum**: GPU, 8GB RAM, webcam
 
 ## 🎯 Target Audiences
 
 ### **👨‍🎓 Researchers & Academics**
 - Gesture recognition research
 - ASL studies and analysis
-- Computer vision research
-- Publication support with automated reports
 
 ### **👨‍💻 Developers & Engineers**
 - AI integration learning
@@ -204,29 +190,6 @@ python benchmarks/benchmark_runner.py --mode comprehensive
 - Full-stack application development
 - Research methods and reporting
 
-### **🏢 Industry Professionals**
-- Accessibility tools development
-- Gesture interface systems
-- AI model deployment testing
-- Research and development prototyping
-
-## 🚀 Deployment
-
-### **Local Development**
-```bash
-# Backend
-cd backend && python main.py
-
-# Frontend
-cd frontend && flutter run -d chrome
-```
-
-### **Production Deployment**
-- **Backend**: Deploy FastAPI to cloud platforms (AWS, GCP, Azure)
-- **Frontend**: Build Flutter web app for production
-- **Database**: Add persistent storage for results
-- **Monitoring**: Implement logging and monitoring
-
 ## 🤝 Contributing
 
 1. Fork the repository
@@ -234,10 +197,6 @@ cd frontend && flutter run -d chrome
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🆘 Support
 
@@ -262,4 +221,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Note**: This project is designed for research and development purposes. For production deployment, additional testing and validation may be required.
+**Note**: This project is designed for research and development purposes. 
